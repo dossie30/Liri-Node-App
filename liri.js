@@ -84,7 +84,7 @@ var getMeMovie = function(movieName) {
     movieName = "Mr Nobody";
   }
 
-  var urlHit = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=full&tomatoes=true&apikey=trilogy";
+  var urlHit = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=full&tomatoes=true&apikey=f5526338";
 
   request(urlHit, function(error, response, body) {
     if (!error && response.statusCode === 200) {
